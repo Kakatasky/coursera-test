@@ -1,0 +1,82 @@
+/********** Base styles **********/
+*{
+	box-sizing: border-box;
+	margin:0;
+	
+}
+body {
+	background-color:#f4f4f4;
+}
+div{
+	display:block;
+}
+.title{
+	font-family: fantasy;
+}
+p {
+	clear:both;
+	padding:0 15px 15px;
+	color:#0f0f0f;
+}
+.mycontainer{
+	padding:0 15px;
+}
+.title{
+	float:right;
+	width:33.33%;
+	clear:both;
+	text-align:center;
+	padding:10px;
+	border:#101010 solid 1px;
+	position:relative;
+	bottom:1px;
+	left:1px;
+	font-size:1.1em;
+}
+.header{
+	text-align: center;
+	padding:25px 0px;
+	font-family: fantasy;
+	font-size:200%;
+}
+#ps{
+	color:#fafafa;
+	background-color:black;
+}
+#ns{
+	color:white;
+	background-color: #f00022;
+}
+#xbox{
+	color:white;
+	background-color:#108010;
+}
+.col-lg-4, .col-md-6 ,.col-md-12{
+	position:relative;
+	float:left;
+	width:100%;
+}
+.game_console{
+
+	margin:15px;
+	border:#101010 solid 1px;
+	background-color:white;
+}
+/********** Large devices only **********/
+@media (min-width:992px){
+	.col-lg-4{
+		width:33.33%;
+	}
+}
+/********** Medium devices only **********/
+@media (min-width:768px) and (max-width:991px){
+	.col-md-6{
+		width:50%;
+	}
+	
+}
+/*@media (max-width:767px){
+	.col-lg-4, .col-md-6 ,.col-md-12{
+	width:100%;
+}
+}*/
