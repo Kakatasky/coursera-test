@@ -1,0 +1,74 @@
+.navbar-brand svg *{
+  fill:#343a40;
+}
+.decorate {
+  visibility: hidden;
+}
+.navbar{
+	z-index: 1000;
+}
+@media (min-width:992px){
+  .decorate {
+  visibility: visible;
+  }
+}
+.navbar-toggler {
+	background-color:#fece47;
+	padding:18px;
+	position:absolute;
+	right:0;
+	top:0;
+	border:none;
+	border-radius:0;
+}
+.navbar-toggler-icone {
+   background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+}
+.jumbotron .container img{
+	width:50%;
+	position:absolute;
+	top:0;
+	right:0;
+	float:right;
+	z-index: 0;
+}
+.jumbotron .container::after{
+	    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+.jumbotron {
+	background-color: white;
+}
+#kakatasky{
+	font-weight:500;
+	color:#fece47;
+	z-index: 1003;
+}
+.container .display-4{
+	padding-top:1.4em;
+}
+.bd-footer {
+	margin-top:50px;
+	background-color:#fece47;
+	padding:48px;
+}
+.bd-footer a {
+    font-weight: 500;
+    color: #495057;
+}
+.back-top {
+	position:fixed;
+	right:40px;
+	bottom:20px;
+	background-color: white;
+}
+.bd-footer .container-fluid img {
+	width:20px;
+	margin-right:5px;
+	position: relative;
+	bottom:2px;
+}
