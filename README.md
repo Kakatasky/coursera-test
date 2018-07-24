@@ -21,6 +21,6 @@ Syntax highlighted code block
 [Link](url) and ![Image](src)
 ```
 
-[Coursera exercise](/site)
+[Coursera exercise](https://kakatasky.github.io/exercise/site/)
 
 Email:240465372@qq.com
